@@ -1,4 +1,4 @@
-# @description php 7.2 image base on the alpine OS 3.8
+# @description php 7.2 image base on the alpine OS 3.9
 #                       some information
 # ------------------------------------------------------------------------------------
 # @link https://hub.docker.com/_/alpine/      alpine image
@@ -8,7 +8,7 @@
 # @build-example docker build . -f alphp-base.Dockerfile -t swoft/alphp:base
 #
 
-FROM alpine:3.8
+FROM alpine:3.9
 LABEL maintainer="inhere <cloud798@126.com>" version="1.0"
 
 ##
