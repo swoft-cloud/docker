@@ -1,14 +1,14 @@
-# @description php 7.3 image base on the alpine OS 3.10
+# @description php 7.3 image base on the alpine OS 3.11
 #                       Some Information
 # ------------------------------------------------------------------------------------
 # @link https://hub.docker.com/_/alpine/      alpine image
 # @link https://hub.docker.com/_/php/         php image
 # @link https://github.com/docker-library/php php dockerfiles
 # ------------------------------------------------------------------------------------
-# @build-example docker build . -f alpine310.Dockerfile -t swoftlabs/alpine:php73
+# @build-example docker build . -f alpine311.Dockerfile -t swoftlabs/alpine:php73
 #
 
-FROM alpine:3.10
+FROM alpine:3.11
 LABEL maintainer="inhere <cloud798@126.com>" version="1.0"
 
 ##
